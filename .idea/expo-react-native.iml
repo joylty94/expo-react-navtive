@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/../../expo-react-native/gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/../../expo-react-native/gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/../../expo-react-native/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/../../expo-react-native/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../../expo-react-native/assets" />
+        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/../../expo-react-native/libs" />
+        <option name="PROGUARD_LOGS_FOLDER_RELATIVE_PATH" value="/../../expo-react-native/proguard_logs" />
+      </configuration>
+    </facet>
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/production/expo-react-native" />
+    <output-test url="file://$MODULE_DIR$/test/expo-react-native" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.babelrc" />
+      <excludeFolder url="file://$MODULE_DIR$/.expo" />
+      <excludeFolder url="file://$MODULE_DIR$/.git" />
+      <excludeFolder url="file://$MODULE_DIR$/.gitignore" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/.watchmanconfig" />
+      <excludeFolder url="file://$MODULE_DIR$/App.js" />
+      <excludeFolder url="file://$MODULE_DIR$/app.json" />
+      <excludeFolder url="file://$MODULE_DIR$/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/package.json" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 27 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
