@@ -5,6 +5,9 @@ import {
     StyleSheet,
     Button,
 } from 'react-native';
+import { createStackNavigator } from 'react-navigation'
+
+import HomeScreen from './HomeScreen'
 
 class LoginScreen extends Component{
     static navigationOptions = {
@@ -22,4 +25,13 @@ class LoginScreen extends Component{
         )
     }
 }
-export default LoginScreen;
+
+const LoginScreenStackNavigator = createStackNavigator({
+    LoginScreen: {
+        screen: LoginScreen
+    },
+    HomeScreen: {
+        screen: HomeScreen
+    }
+})
+export default LoginScreenStackNavigator;
