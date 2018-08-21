@@ -4,12 +4,9 @@ import {
     Text,
     StyleSheet,
 } from 'react-native';
-import { createBottomTabNavigator } from 'react-navigation';
+import { createMaterialTopTabNavigator } from 'react-navigation';
 
 class HomeScreen extends Component {
-    static navigationOptions = {
-        title: 'HomeScreen'
-    }
     render() {
         return (
             <View>
@@ -20,9 +17,6 @@ class HomeScreen extends Component {
 }
 
 class Notifications extends Component {
-    static navigationOptions = {
-        title: 'Notifications'
-    }
     render() {
         return (
             <View>
@@ -32,16 +26,18 @@ class Notifications extends Component {
     }
 }
 
-const HomeScreenTabNavigator = createBottomTabNavigator({
-    HomeScreen: {
-        screen: HomeScreen
+const HomeScreenTabNavigator = createMaterialTopTabNavigator(
+    {
+        HomeScreen: { screen: HomeScreen },
+        Notifications: { screen: Notifications },
     },
-    Notifications: {
-        screen: Notifications
+    {
+        navigationOptions: () => ({ 
+            headertitle: `Home`,
+            headerBackTitle: null,
+            headerTruncatedBackTitle: `to A`
+        })
     }
-},  
-{
-    animationEnabled: true
-})
+)
 
 export default HomeScreenTabNavigator;

@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { createStackNavigator } from 'react-navigation';
 
 import LoginScreen from './Screen/LoginScreen';
-import HomeScreen from './Screen/HomeScreen';
+import HomeScreenTabNavigator from './Screen/HomeScreen';
 
 export default class App extends React.Component {
   render() {
@@ -15,7 +15,7 @@ export default class App extends React.Component {
 
 const AppNavigator = createStackNavigator({
   LoginScreen: { screen : LoginScreen },
-  HomeScreen: { screen: HomeScreen }
+  HomeScreenTabNavigator: { screen: HomeScreenTabNavigator },
 })
 
 const styles = StyleSheet.create({

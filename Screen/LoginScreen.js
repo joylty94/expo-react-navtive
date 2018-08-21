@@ -8,7 +8,9 @@ import {
 
 class LoginScreen extends Component{
     static navigationOptions = {
-        title: 'Login'
+        headerTitle: 'Login',
+        headerRight: (<Button onPress={()=>alert('button')}
+                        title="button"/>)
     }
     render(){
         return(
