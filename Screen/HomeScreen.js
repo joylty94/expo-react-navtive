@@ -7,6 +7,9 @@ import {
 import { createBottomTabNavigator } from 'react-navigation';
 
 class HomeScreen extends Component {
+    static navigationOptions = {
+        title: 'HomeScreen'
+    }
     render() {
         return (
             <View>
@@ -17,6 +20,9 @@ class HomeScreen extends Component {
 }
 
 class Notifications extends Component {
+    static navigationOptions = {
+        title: 'Notifications'
+    }
     render() {
         return (
             <View>
